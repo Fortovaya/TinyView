@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C7688F922ED60871004CB833 /* TinyView */ = {
+		C7B8B2072ED62BB4000BC131 /* TinyView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TinyView;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		C7688F872ED60871004CB833 = {
 			isa = PBXGroup;
 			children = (
-				C7688F922ED60871004CB833 /* TinyView */,
+				C7B8B2072ED62BB4000BC131 /* TinyView */,
 				C7688F912ED60871004CB833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C7688F922ED60871004CB833 /* TinyView */,
+				C7B8B2072ED62BB4000BC131 /* TinyView */,
 			);
 			name = TinyView;
 			packageProductDependencies = (
