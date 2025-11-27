@@ -76,5 +76,7 @@ iOSInjectionProject/
 
 # Ignore Xcode UI state files
 *.xcuserstate
+xcuserdata/
+*.xcuserdatad/
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,xcode
