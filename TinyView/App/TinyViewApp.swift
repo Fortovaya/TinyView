@@ -26,9 +26,6 @@ struct TinyViewApp: App {
 		UINavigationBar.appearance().standardAppearance = navAppearance
 		UINavigationBar.appearance().scrollEdgeAppearance = navAppearance
 		UINavigationBar.appearance().compactAppearance = navAppearance
-
-		UITableView.appearance().backgroundColor = .clear
-		UITableViewCell.appearance().backgroundColor = .clear
 	}
 
     var body: some Scene {
