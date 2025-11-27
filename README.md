@@ -43,19 +43,3 @@ SwiftUI, MVVM, CoreData + File System, PDFKit, Combine, async/await
 Компрессия изображений на фоновом потоке
 
 WebView
-
-📸 Скриншоты
-<div align="center"> 
-
-<img src="img/welcome.png" width="300" alt="PDF Reader"> <br/> <sub>Приветственный экран</sub>
-
-
-<br/><br/>
-
-<img src="img/list.png" width="300" alt="Список PDF"> <br/> <sub>Список сохраненных документов с миниатюрами</sub>
-
-<br/><br/>
-
-<img src="img/editor.png" width="300" alt="Создание PDF"> <br/> <sub>Экран создания PDF — добавление изображений</sub> 
-
-</div>
