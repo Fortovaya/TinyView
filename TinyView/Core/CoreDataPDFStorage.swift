@@ -93,7 +93,7 @@ final class CoreDataPDFStorage: PDFStorage {
 			do {
 				try fileManager.removeItem(at: document.fileURL)
 			} catch {
-				continue
+				
 			}
 		}
 
