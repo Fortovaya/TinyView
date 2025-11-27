@@ -12,7 +12,6 @@ struct MainView: View {
 	@StateObject private var documentsViewModel = DocumentsListViewModel()
 
 	var body: some View {
-		NavigationView {
 			TabView {
 				PDFEditorView(viewModel: editorViewModel)
 					.tabItem {
@@ -24,7 +23,5 @@ struct MainView: View {
 						Label("Документы", systemImage: "doc.richtext")
 					}
 			}
-		}
-		.navigationViewStyle(.stack)
 	}
 }
