@@ -18,5 +18,6 @@ struct RootView: View {
 				WelcomeScreenView(hasCompletedOnboarding: $hasCompletedOnboarding)
 			}
 		}
+		.navigationViewStyle(.stack)
 	}
 }
