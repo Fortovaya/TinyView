@@ -30,7 +30,7 @@ struct WebView: View {
 						dismiss()
 					} label: {
 						Image(systemName: "chevron.left")
-							.foregroundStyle(.black)
+							.foregroundStyle(.blue)
 					}
 				}
 			}
