@@ -13,8 +13,12 @@ extension View {
 	}
 
 	func dismissKeyboardOnTap() -> some View {
-		self.onTapGesture {
-			self.dismissKeyboard()
-		}
+		self.background(
+			Color.clear
+				.contentShape(Rectangle())
+				.onTapGesture {
+					self.dismissKeyboard()
+				}
+		)
 	}
 }
