@@ -72,6 +72,9 @@ iOSInjectionProject/
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # macOS system files
-.DS_Store          # ← добавлено
+.DS_Store
+
+# Ignore Xcode UI state files
+*.xcuserstate
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,xcode
